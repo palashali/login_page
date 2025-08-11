@@ -6,6 +6,8 @@ document.getElementById("submit-button").addEventListener("click", function () {
   const password = userPasswordField.value;
   if (email == "admin@gmail.com" && password == 123456) {
     window.location.href = "./bank/halim.html";
+  } else {
+    alert("Invalid email or password")
   }
 
 });
